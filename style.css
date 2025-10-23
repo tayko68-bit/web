@@ -353,6 +353,7 @@ a:hover {
 }
 
 /* ======== RESPONSIVE DESIGN (MÓVIL) ======== */
+/* ======== RESPONSIVE DESIGN (MÓVIL) ======== */
 @media (max-width: 768px) {
     .section {
         padding: 4rem 0;
@@ -384,4 +385,10 @@ a:hover {
         margin-top: 3rem;
     }
 
+    /* --- ESTA ES LA REGLA AÑADIDA PARA EL HERO EN MÓVIL --- */
+    #hero {
+        background-attachment: scroll; /* Esto permite que la imagen se vea bien en móviles */
+    }
+    /* --------------------------------------------------- */
 }
+
